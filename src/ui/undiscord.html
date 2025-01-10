@@ -29,7 +29,7 @@
                     </legend>
                     <div class="multiInput">
                         <div class="input-wrapper">
-                            <input class="input" id="authorId" type="text" priv>
+                            <input class="input" id="authorId" type="text" autocomplete="off"  priv>
                         </div>
                         <button id="getAuthor">me</button>
                     </div>
@@ -42,7 +42,7 @@
                     </legend>
                     <div class="multiInput">
                         <div class="input-wrapper">
-                            <input class="input" id="guildId" type="text" priv>
+                            <input class="input" id="guildId" type="text" autocomplete="off"  priv>
                         </div>
                         <button id="getGuild">current</button>
                     </div>
@@ -54,7 +54,7 @@
                     </legend>
                     <div class="multiInput mb1">
                         <div class="input-wrapper">
-                            <input class="input" id="channelId" type="text" priv>
+                            <input class="input" id="channelId" type="text" autocomplete="off"  priv>
                         </div>
                         <button id="getChannel">current</button>
                     </div>
@@ -89,7 +89,7 @@
                         <a href="{{WIKI}}/filters" title="Help" target="_blank" rel="noopener noreferrer">help</a>
                     </legend>
                     <div class="input-wrapper">
-                        <input id="search" type="text" placeholder="Containing text" priv>
+                        <input id="search" type="text" placeholder="Containing text" autocomplete="off"  priv>
                     </div>
                     <div class="sectionDescription">
                         Only delete messages that contain the text
@@ -115,7 +115,7 @@
                     </div>
                     <div class="input-wrapper">
                         <span class="info">/</span>
-                        <input id="pattern" type="text" placeholder="regular expression" priv>
+                        <input id="pattern" type="text" placeholder="regular expression" autocomplete="off"  priv>
                         <span class="info">/</span>
                     </div>
                 </fieldset>
@@ -129,13 +129,13 @@
                     </legend>
                     <div class="multiInput mb1">
                         <div class="input-wrapper">
-                            <input id="minId" type="text" placeholder="After a message" priv>
+                            <input id="minId" type="text" placeholder="After a message" autocomplete="off"  priv>
                         </div>
                         <button id="pickMessageAfter">Pick</button>
                     </div>
                     <div class="multiInput">
                         <div class="input-wrapper">
-                            <input id="maxId" type="text" placeholder="Before a message" priv>
+                            <input id="maxId" type="text" placeholder="Before a message" autocomplete="off"  priv>
                         </div>
                         <button id="pickMessageBefore">Pick</button>
                     </div>
@@ -178,7 +178,7 @@
                         <a href="{{WIKI}}/delay" title="Help" target="_blank" rel="noopener noreferrer">help</a>
                     </legend>
                     <div class="input-wrapper">
-                        <input id="searchDelay" type="range" value="30000" step="100" min="100" max="60000">
+                        <input id="searchDelay" type="range" value="5000" step="100" min="100" max="60000">
                         <div id="searchDelayValue"></div>
                     </div>
                 </fieldset>
@@ -188,7 +188,7 @@
                         <a href="{{WIKI}}/delay" title="Help" target="_blank" rel="noopener noreferrer">help</a>
                     </legend>
                     <div class="input-wrapper">
-                        <input id="deleteDelay" type="range" value="1000" step="50" min="50" max="10000">
+                        <input id="deleteDelay" type="range" value="1800" step="50" min="50" max="10000">
                         <div id="deleteDelayValue"></div>
                     </div>
                     <br>
@@ -205,7 +205,7 @@
                     </legend>
                     <div class="multiInput">
                         <div class="input-wrapper">
-                            <input class="input" id="token" type="password" autocomplete="dont" priv>
+                            <input class="input" id="token" type="password" autocomplete="off" priv>
                         </div>
                         <button id="getToken">fill</button>
                     </div>
